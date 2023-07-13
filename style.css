@@ -1,0 +1,322 @@
+body {
+    margin: 0%;
+}
+
+.main-body {
+    background: #88d4b4;
+}
+
+.main{
+    background: #88d4b4;
+    height: 100%;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 30rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .column-eng {
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 50rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .eng-p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50rem;
+    
+  }
+
+  .column-tr {
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 50rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .tr-p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50rem;
+    
+  }
+  .column-de {
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 50rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .de-p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50rem;
+    
+  }
+  .column-rs {
+    float: left;
+    position: relative;
+    width: 25%;
+    height: 50rem;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .rs-p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50rem;
+    
+  }
+
+
+
+  /* Clear floats after the columns */
+  .main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.main-page{
+    background: #88d4b4;
+    padding: 2%;
+    height: 60rem;
+    
+}
+
+.img1{
+    justify-content: center;
+    margin-left: 44%;
+    margin-top: 7%;
+}
+
+#main-title{
+position: absolute;
+  top: 18rem;
+  left: 50%;
+  width: 100%;
+  font-size: 2.1rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Scope One', serif;
+  
+  
+}
+
+
+
+#sub-title{
+    position: absolute;
+    top: 23rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#dr-name{
+    position: absolute;
+    top: 27rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.img2{
+    justify-content: center;
+    margin-left: 30rem;
+    margin-top: 15rem;
+    width:30rem;
+    height: auto;
+}
+
+#slogan{
+    position: absolute;
+    top: 51rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.first-line{
+    height: 3rem;
+    background-color: #9054fc;
+}
+
+.space-line{
+    height: 0.6rem;
+    background-color:lightgray;
+}
+
+.second-line1{
+    height: 3rem;
+    width: 32%;
+    background-color: #9054fc;
+    float: left;
+}
+
+.second-line2{
+    height: 3rem;
+    width: 36%;
+    background-color: #88d4b4;
+    float: left;
+}
+
+.second-line3{
+    height: 3rem;
+    width: 32%;
+    background-color: #9054fc;
+    float: left;
+}
+
+#page{
+    position: relative;
+    top: 2.5rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#about-us{
+    position: relative;
+    top: 2.5rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.normal-p1{
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.normal-p2{
+    position: relative;
+    top: 2rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.bullet-div1{
+    text-align: center;   
+}
+
+ul.bullet-1{
+    
+    top: 6rem;
+    
+    
+    display: inline-block;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.normal-p{
+    top: 1rem;
+    margin: 3% 10%;
+    line-height: 1.6;
+    text-align: center;
+}
+
+div.bullet-div2{
+    text-align: center;   
+}
+
+.bullet-2{
+    display: inline-block;
+    text-align: left;
+    top: 2.5rem;
+    line-height: 1.6;
+}
+
+.footer{
+ height: 15rem;
+ background-color: #9054fc;   
+}
+
+#leftbox {
+    float:left;
+    background-color: #9054fc;
+    width:25%;
+    height:280px;
+}
+#middlebox{
+    float:left;
+    background-color: #9054fc;
+    width:50%;
+    height:280px;
+}
+#rightbox{
+    float:right;
+    background-color: #9054fc;
+    width:25%;
+    height:280px;
+    text-align: center;
+}
+
+#foot-title{
+    position: relative;
+    top: 2.5rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.phone-number{
+    position: relative;
+    top: 3rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.adress{
+    position: relative;
+    top: 4.5rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#wp-title{
+    position: relative;
+    top: 6rem;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
